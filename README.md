@@ -3,16 +3,11 @@
 ## TripleTen
 
 **Program:** BI Analytics
-
 **Sprint:** 5-Storytelling with Data
-
 **Project:** Superstore - Causes of Returns
-
 **Analyst:** Cesar A. Nieto
 
-
 PATH FOR TABLEAU DASHBOARD:
-
 https://public.tableau.com/views/Project5StorytellingwithData/UNDERSTANDINGRETURNS?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ### Overview
@@ -23,9 +18,9 @@ This analysis aims to determine the actions to be taken after appropriate measur
 To determine the causes of order returns, we attempted to cross-reference customer feedback with the available data. Unfortunately, Superstore's data does not provide information on the reasons customers cite for order returns, whether due to quality issues or operational deficiencies in shipping and/or delivery. Therefore, we will attempt to determine the causes based on statistical data. The following is the scope of the
 research:
 
-1. **Period:** Four years (2018-2021), with annual and monthly comparative periods.
-2. **Location:** US (50 states), covering all states.
-3. **Strategy:** Comparative analysis of transactions (order returns) by product categories and sub-categories. We have also identified the market segments involved and even conducted an analysis at the individual customer level.
+1. **Period:** Four years (2018-2021), with annual and monthly comparative periods. 
+2. **Location:** US (50 states), covering all states. 
+3. **Strategy:** Comparative analysis of transactions (order returns) by product categories and sub-categories. We have also identified the market segments involved and even conducted an analysis at the individual customer level. 
 4. **Measuring Returns:** To obtain a true understanding of the level of order returns, we consider the following measures appropriate:
 _Order Return Rate
 Number of Returned Orders
@@ -47,22 +42,22 @@ To display the analyzed information and draw conclusions, we have created the fo
 6. **Return Rate by State:** Provides a graphical, macro-level overview of return patterns across each state.
 7. **Return Rate by Year/State:** Provides an annual, macro-level overview of return patterns across each state.
 8. **Understanding Returns (Dashboard):** To understand how to use the Dashboard first and foremost, it should be viewed as a diagnostic tool
-designed to assist stakeholders in performing the following key functions:
-_**Monitor Return Performance**
-a. Across various dimensions, including Time, Geography, and Product Type/Quality.
-**Investigate the Underlying Causes of Returns**
+designed to assist stakeholders in performing the following key functions: 
+_**Monitor Return Performance** 
+a. Across various dimensions, including Time, Geography, and Product Type/Quality. 
+**Investigate the Underlying Causes of Returns** 
 a. By utilizing all available filters to generate in-depth metrics, users can isolate specific issues by cross-referencing data points simultaneously to
-draw meaningful comparisons.
-**Make Data-Driven Decisions Based on the Results**
-a. To make well-founded decisions, stakeholders should begin with a general, global overview of the return rate and ask themselves whether the current level of returns is minimally acceptable.
-b. Regardless of that initial assessment, the Time Dimensions help determine during which periods or seasons return rates tend to rise.
-c. In the meantime, the Geographic Dimensions reveal which regions of the country exhibit the highest volume of returns.
+draw meaningful comparisons. 
+**Make Data-Driven Decisions Based on the Results**  
+a. To make well-founded decisions, stakeholders should begin with a general, global overview of the return rate and ask themselves whether the current level of returns is minimally acceptable. 
+b. Regardless of that initial assessment, the Time Dimensions help determine during which periods or seasons return rates tend to rise. 
+c. In the meantime, the Geographic Dimensions reveal which regions of the country exhibit the highest volume of returns. 
 d. The Product Type/Quality Dimensions indicate which products have a higher propensity to be returned, while combinations of all these
 dimensions provide a deeper and more comparative insight into the identified problems._
-9. **Presentation - Story Arc (Story):** The following are the story points you will find in our Tableau Story; they will be supported for worksheets
-_**The Most Important Signal**
+10. **Presentation - Story Arc (Story):** The following are the story points you will find in our Tableau Story; they will be supported for worksheets
+_**The Most Important Signal** 
 Caption: Between 2018-2021 this was the level of Order Return Rate at Superstore in United States including all products categories and subcategories.
-**How We Measure Returns**
+**How We Measure Returns** 
 Caption: Return rate shows customer behavior; total returns and cost of returns quantify operational impact. Use all three for a complete view.
 **Geographic Hotspots**
 Caption: California, Texas, and Florida show the highest return rates, driven by long shipping distances and heavy online ordering.
