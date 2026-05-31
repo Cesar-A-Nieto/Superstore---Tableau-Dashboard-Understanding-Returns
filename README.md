@@ -3,18 +3,25 @@
 ## TripleTen
 
 **Program:** BI Analytics
+
 **Sprint:** 5-Storytelling with Data
+
 **Project:** Superstore - Causes of Returns
+
 **Analyst:** Cesar A. Nieto
 
+
 PATH FOR TABLEAU DASHBOARD:
+
 https://public.tableau.com/views/Project5StorytellingwithData/UNDERSTANDINGRETURNS?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ### Overview
 This analysis aims to determine the actions to be taken after appropriate measures and graphic demonstrations have revealed the reasons why the company experiences a considerable level of post-sales order returns.
 
 ### Research
+
 **Summary of Analysis**
+
 To determine the causes of order returns, we attempted to cross-reference customer feedback with the available data. Unfortunately, Superstore's data does not provide information on the reasons customers cite for order returns, whether due to quality issues or operational deficiencies in shipping and/or delivery. Therefore, we will attempt to determine the causes based on statistical data. The following is the scope of the
 research:
 
@@ -32,6 +39,7 @@ Carrier handling issues.- Incorrect item fulfillment
 Customer Expectation Gaps.- No Information available_
 
 **Overview of Visualizations** 
+
 To display the analyzed information and draw conclusions, we have created the following Worksheets, Dashboard, and Story in Tableau. The following is the explanation of what each worksheet contains and how it should be interpreted. _All our worksheets and the dashboard itself are sensitive to the following filters: Year, Month, State, Product Category, and Product Sub-Category._
 
 1. **Return Rate:** The top right corner of our dashboard shows the return rate in the US (50 states) during the whole period (2018-2021), including all products Categories and Subcategories. This rate will vary if we apply one, some, or all the mentioned filters. It is the result of the calculation of the average number of returned orders.
@@ -42,35 +50,52 @@ To display the analyzed information and draw conclusions, we have created the fo
 6. **Return Rate by State:** Provides a graphical, macro-level overview of return patterns across each state.
 7. **Return Rate by Year/State:** Provides an annual, macro-level overview of return patterns across each state.
 8. **Understanding Returns (Dashboard):** To understand how to use the Dashboard first and foremost, it should be viewed as a diagnostic tool
-designed to assist stakeholders in performing the following key functions: 
+designed to assist stakeholders in performing the following key functions:
+
 _**Monitor Return Performance** 
-a. Across various dimensions, including Time, Geography, and Product Type/Quality. 
+a. Across various dimensions, including Time, Geography, and Product Type/Quality.
+
 **Investigate the Underlying Causes of Returns** 
 a. By utilizing all available filters to generate in-depth metrics, users can isolate specific issues by cross-referencing data points simultaneously to
-draw meaningful comparisons. 
-**Make Data-Driven Decisions Based on the Results**  
-a. To make well-founded decisions, stakeholders should begin with a general, global overview of the return rate and ask themselves whether the current level of returns is minimally acceptable. 
-b. Regardless of that initial assessment, the Time Dimensions help determine during which periods or seasons return rates tend to rise. 
-c. In the meantime, the Geographic Dimensions reveal which regions of the country exhibit the highest volume of returns. 
+draw meaningful comparisons.
+
+**Make Data-Driven Decisions Based on the Results**
+
+a. To make well-founded decisions, stakeholders should begin with a general, global overview of the return rate and ask themselves whether the current level of returns is minimally acceptable.
+
+b. Regardless of that initial assessment, the Time Dimensions help determine during which periods or seasons return rates tend to rise.
+
+c. In the meantime, the Geographic Dimensions reveal which regions of the country exhibit the highest volume of returns.
+
 d. The Product Type/Quality Dimensions indicate which products have a higher propensity to be returned, while combinations of all these
 dimensions provide a deeper and more comparative insight into the identified problems._
-10. **Presentation - Story Arc (Story):** The following are the story points you will find in our Tableau Story; they will be supported for worksheets
-_**The Most Important Signal** 
+
+10. **Presentation - Story Arc (Story):** The following are the story points you will find in our Tableau Story; they will be supported for worksheets_
+
+**The Most Important Signal** 
 Caption: Between 2018-2021 this was the level of Order Return Rate at Superstore in United States including all products categories and subcategories.
+
 **How We Measure Returns** 
 Caption: Return rate shows customer behavior; total returns and cost of returns quantify operational impact. Use all three for a complete view.
+
 **Geographic Hotspots**
 Caption: California, Texas, and Florida show the highest return rates, driven by long shipping distances and heavy online ordering.
+
 **Product Categories Driving Returns**
 Caption: In general, the three main product categories show the same return rates, however, Technology is the one who has the highest rate of returns.
+
 **Customer Behavior Patterns**
 Caption: Filtering out one-time buyers reveals repeat customers with consistently high return rates, indicating expectation gaps.
+
 **Composite View: Connecting the Factors**
 Caption: Combining geography, product category, and time reveals a chain reaction: inaccurate info + weak packaging + long-distance shipping.
+
 **How to Use the Dashboard**
 Caption: Start with overall return rate, drill down by category or geography, and use filters to isolate root causes.
+
 **Recommended Actions**
 Caption: Improve product descriptions, standardize sizing, reinforce packaging, retrain fulfillment centers, and monitor returns in real time.
+
 **Conclusion & Next Steps**
 Caption: Addressing product clarity, quality consistency, and operational gaps will reduce returns and improve customer experience nationwide._
 
